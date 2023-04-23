@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>로그인</title>
+  </head>
+  <body>
+    <form id="signup-form" action="/signup" method="POST">
+      <div>로그인하기</div>
+      <div>
+        <label for="id">아이디</label>
+        <input type="text" id="id" name="id" required />
+      </div>
+      <div>
+        <label for="password">패스워드</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+      <div>
+        <button type="submit">로그인</button>
+      </div>
+      <div id="info"></div>
+    </form>
+  </body>
+</html>
